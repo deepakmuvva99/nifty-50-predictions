@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Price Prediction Outputs</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1a2a3a;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(rgba(26, 42, 58, 0.9), rgba(26, 42, 58, 0.9)), url('https://via.placeholder.com/1920x1080.png?text=Stock+Market+Background');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .title {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #4CAF50;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .company-container {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .company-title {
+            color: #4CAF50;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .image-box {
+            width: 45%;
+            margin-bottom: 20px;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .image-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(76, 175, 80, 0.3);
+        }
+        .image-box img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .image-box p {
+            padding: 15px;
+            margin: 0;
+            text-align: center;
+            font-weight: bold;
+            color: #4CAF50;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Stock Price Prediction Outputs from  start_date = "2020-01-01"
+            end_date = "2024-06-25" </h1>
+        
+        <div class="company-container">
+            <h2 class="company-title">HDFC</h2>
+            <div class="image-container">
+                <div class="image-box">
+                    <img src="hdfcg.jpg" alt="HDFC Daily Prediction">
+                    <p>HDFC Daily Prediction</p>
+                </div>
+                <div class="image-box">
+                    <img src="hdfcd.jpg" alt="HDFC Global Prediction">
+                    <p>HDFC Global Prediction</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="company-container">
+            <h2 class="company-title">ICICI</h2>
+            <div class="image-container">
+                <div class="image-box">
+                    <img src="icicig.jpg" alt="ICICI Daily Prediction">
+                    <p>ICICI Daily Prediction</p>
+                </div>
+                <div class="image-box">
+                    <img src="icicid.jpg" alt="ICICI Global Prediction">
+                    <p>ICICI Global Prediction</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="company-container">
+            <h2 class="company-title">Infosys</h2>
+            <div class="image-container">
+                <div class="image-box">
+                    <img src="infosysg.jpg" alt="Infosys Daily Prediction">
+                    <p>Infosys Daily Prediction</p>
+                </div>
+                <div class="image-box">
+                    <img src="infosysd.jpg" alt="Infosys Global Prediction">
+                    <p>Infosys Global Prediction</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="company-container">
+            <h2 class="company-title">Reliance</h2>
+            <div class="image-container">
+                <div class="image-box">
+                    <img src="reilanceg.jpg" alt="Reliance Daily Prediction">
+                    <p>Reliance Daily Prediction</p>
+                </div>
+                <div class="image-box">
+                    <img src="reilanced.jpg" alt="Reliance Global Prediction">
+                    <p>Reliance Global Prediction</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="company-container">
+            <h2 class="company-title">TCS</h2>
+            <div class="image-container">
+                <div class="image-box">
+                    <img src="tcsg.jpg" alt="TCS Daily Prediction">
+                    <p>TCS Daily Prediction</p>
+                </div>
+                <div class="image-box">
+                    <img src="tcsd.jpg" alt="TCS Global Prediction">
+                    <p>TCS Global Prediction</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
