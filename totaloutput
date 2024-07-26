@@ -1,0 +1,46 @@
+Overall Results:
+<br>
+
+RELIANCE.NS:
+<br>
+  Average MSE: 26133.9948
+<br>
+  Average MAE: 107.3443
+<br>
+  Next Day Prediction: 2918.23
+<br>
+
+TCS.NS:
+<br>
+  Average MSE: 62692.0142
+<br>
+  Average MAE: 180.6811
+<br>
+  Next Day Prediction: 3857.70
+<br>
+
+HDFCBANK.NS:
+<br>
+  Average MSE: 11529.2033
+<br>
+  Average MAE: 67.7988
+<br>
+  Next Day Prediction: 1646.87
+<br>
+
+INFY.NS:
+<br>
+  Average MSE: 19060.4019
+<br>
+  Average MAE: 92.0000
+<br>
+  Next Day Prediction: 1587.81
+<br>
+
+ICICIBANK.NS:
+<br>
+  Average MSE: 5294.0975
+<br>
+  Average MAE: 56.6706
+<br>
+  Next Day Prediction: 1103.54
