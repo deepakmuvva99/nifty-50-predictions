@@ -23,9 +23,14 @@ Python
 Pandas
 <br>
 NumPy
+<br>
 Matplotlib
+<br>
 Seaborn
+<br>
 Scikit-learn
+<br>
 Yahoo Finance API
+<br>
 TQDM
 
